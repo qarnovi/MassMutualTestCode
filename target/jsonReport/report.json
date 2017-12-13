@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4361953967,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "test;",
+        "after": [
+          {
+            "result": {
+              "duration": 1097680558,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1798983099,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "Tests.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2883827417,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user selects two items to purchase",
+            "match": {
+              "location": "Tests.the_user_selects_two_items_to_purchase()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1017947554,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should see selected two items in the cart",
+            "match": {
+              "location": "Tests.the_user_should_see_selected_two_items_in_the_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 766605914,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user verifies the price of the item  changes accordingly as you change the quantity",
+            "match": {
+              "location": "Tests.the_user_verifies_the_price_of_the_item_changes_accordingly_as_you_change_the_quantity()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 138384913,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user verifies the total price matches the sum of two proces",
+            "match": {
+              "location": "Tests.the_user_verifies_the_total_price_matches_the_sum_of_two_proces()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test",
+    "description": "",
+    "id": "test",
+    "keyword": "Feature",
+    "uri": "problem1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  }
+]
